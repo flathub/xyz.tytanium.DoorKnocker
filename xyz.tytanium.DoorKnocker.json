@@ -34,8 +34,8 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/tytan652/door-knocker.git",
-                    "tag": "0.4.1",
-                    "commit": "404f1bb3f72b66d2c8cfe22af37e8abfa8bbf5d0"
+                    "tag": "0.4.2",
+                    "commit": "470ff95d015091544726b5490c903a7ecd97f618"
                 }
             ]
         }
