@@ -1,7 +1,7 @@
 {
     "app-id" : "xyz.tytanium.DoorKnocker",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "door-knocker",
     "finish-args" : [
@@ -34,8 +34,8 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/tytan652/door-knocker.git",
-                    "tag": "0.4.4",
-                    "commit": "cbcfe3952af105e447702389c175ee33083fed63"
+                    "tag": "0.5.0",
+                    "commit": "e24bf82c19efd963b0cf55c7abec18a5dfe6a8e7"
                 }
             ]
         }
