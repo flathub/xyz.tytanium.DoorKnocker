@@ -1,7 +1,7 @@
 {
     "app-id" : "xyz.tytanium.DoorKnocker",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "door-knocker",
     "finish-args" : [
@@ -14,19 +14,6 @@
     ],
     "modules" : [
         {
-            "name" : "blueprint-compiler",
-            "buildsystem" : "meson",
-            "cleanup": ["*"],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag" : "v0.16.0",
-		    "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0"
-                }
-            ]
-        },
-        {
             "name" : "door-knocker",
             "builddir" : true,
             "buildsystem" : "meson",
@@ -34,8 +21,8 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/tytan652/door-knocker.git",
-                    "tag": "0.7.0",
-                    "commit": "e523fc7e453d2bd7408b3dffa5c747d451fd9034"
+                    "tag": "0.8.0",
+                    "commit": "7613db2a338765a509eccaf94e15223015b570c9"
                 }
             ]
         }
